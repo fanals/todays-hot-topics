@@ -11,31 +11,81 @@
 	<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
 
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<script type="text/javascript" src="js/underscore-min.js"></script>
-	<script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
-	<script type="text/javascript" src="js/jquery.liquidcarousel.pack.js"></script>
-	<script type="text/javascript" src="js/functions.js"></script>
+	<script data-main='js/main' src='lib/require.js'></script>
 </head>
 <body>
 	<div class="container">
-		
-		<!-- div id="liquid">
-			<span class="previous"></span>
-			<div class="wrapper">
-				<ul>
-					
-				</ul>
+		<div class='row'>
+			<div id="cloud" class='span12'>
+				
 			</div>
-			<span class="next"></span>
 		</div>
-	</div -->
-	<div id="footer">
-		<a href="http://validator.w3.org/check?uri=http%3A%2F%2Fpeople.ischool.berkeley.edu%2F~i155-001%2Fi153%2Fa4%2F">
-			<table id="html_validator">
-				<tr><td><img src="img/HTML5.png" alt="html5 validator icon" /></td><td>Validate by clicking here</td></tr>
-			</table>
-		</a>
+		<div id="selectTopicMessage" class='row'>
+			<div class='span12'><h2>Select one of today's hot topics !</h2></div>
+		</div>
+		<div class='mediaSection row'>
+			<div class='span12'>
+				<h2>News</h2>
+				<div id='google' class='liquidCarousel'>
+					<span class="previous"></span>
+					<div class="wrapper">
+						<ul>
+							
+						</ul>
+					</div>
+					<span class="next"></span>
+				</div>
+			</div>
+		</div>
+		<div class='mediaSection row'>
+			<div class='span12'>
+				<h2>Tweets</h2>
+				<div id='twitter' class='liquidCarousel'>
+					<span class="previous"></span>
+					<div class="wrapper">
+						<ul>
+							
+						</ul>
+					</div>
+					<span class="next"></span>
+				</div>
+			</div>
+		</div>
+		<div class='mediaSection row'>
+			<div class='span12'>
+				<h2>Photos</h2>
+				<div id='instagram' class='liquidCarousel'>
+					<span class="previous"></span>
+					<div class="wrapper">
+						<ul>
+							
+						</ul>
+					</div>
+					<span class="next"></span>
+				</div>
+			</div>
+		</div>
+		<div class='mediaSection row'>
+			<div class='span12'>
+				<h2>Videos</h2>
+				<div id='youtube' class='liquidCarousel'>
+					<span class="previous"></span>
+					<div class="wrapper">
+						<ul>
+							
+						</ul>
+					</div>
+					<span class="next"></span>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<a href="http://validator.w3.org/check?uri=http%3A%2F%2Fpeople.ischool.berkeley.edu%2F~i155-001%2Fi153%2Fa4%2F">
+				<table id="html_validator" class='centered'>
+					<tr><td><img src="img/HTML5.png" alt="html5 validator icon" /></td><td>Validate by clicking here</td></tr>
+				</table>
+			</a>
+		</div>
 	</div>
 </body>
 </html>

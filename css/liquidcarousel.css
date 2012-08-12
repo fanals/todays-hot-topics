@@ -1,9 +1,8 @@
-#liquid {
-	border-radius:10px 10px 10px 10px;
-	padding:10px 0;
-	margin-top: -30px;
+.liquidCarousel {
+
 }
-#liquid .previous, #liquid .next {
+
+.liquidCarousel .previous, .liquidCarousel .next {
 	display:block;
 	height:126px;
 	width:64px;
@@ -13,26 +12,29 @@
 	cursor: pointer;
 }
 
-#liquid .previous {
+.liquidCarousel .previous {
 	background-image:url('../img/previous.png');
 	float:left;
 	background-position-x: 9px;
 }
 
-#liquid .next {
+.liquidCarousel .next {
 	background-image:url('../img/next.png');
 	float:right;
 	background-position-x: 7px;
 }
-#liquid ul li {
+
+.liquidCarousel ul li {
 	padding:0 2px;
 	margin:0;
 }
-#liquid ul li a img {
+
+.liquidCarousel ul li a img {
 	-webkit-box-shadow: 5px 5px 3px #222;
 	box-shadow: 5px 5px 3px #222;
 }
-#liquid img {
+
+.liquidCarousel img {
 	width: 240px;
 	border: 5px solid white;
 	-webkit-transition: border 0.5s;
@@ -42,6 +44,6 @@
 	transition: border 0.5s;
 }
 
-#liquid img:hover {
+.liquidCarousel img:hover {
 	border: 5px solid #FE3700;
 }
